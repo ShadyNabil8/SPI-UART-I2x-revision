@@ -13,7 +13,7 @@ void loop() {
     while (Serial.available() < 1)
       ;
     if (Serial.read() == ready) {
-      Serial.print('s');
+      Serial.println("shady");
   }
   seq++;
 }
